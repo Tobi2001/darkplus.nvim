@@ -31,10 +31,11 @@ local Packer = require("darkplus.Packer")
 local SymbolOutline = require("darkplus.SymbolOutline")
 local Notify = require("darkplus.Notify")
 local Misc = require("darkplus.Misc")
+local LT = require("darkplus.LT")
 
 
 local skeletons = {
-    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Packer, SymbolOutline, Notify, Misc
+    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Packer, SymbolOutline, Notify, Misc, LT
 }
 
 for _, skeleton in ipairs(skeletons) do

@@ -34,7 +34,7 @@ local Misc = {
 		htmlTagN = {fg = C.blue, },
 		htmlTagName = {fg = C.blue, },
 		htmlComment = {fg = C.green, },
-		htmlLink = {fg = C.orange, style = "underline", },
+		htmlLink = {fg = C.orange, },
 		cssBraces = {fg = C.fg, },
 		cssInclude = {fg = C.purple, },
 		cssTagName = {fg = C.yellow_orange, },
