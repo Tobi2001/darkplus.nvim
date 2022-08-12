@@ -49,13 +49,19 @@ local colors = {
     ui_orange = "#E8AB53",
     ui_purple = "#B180D7",
 
-        -- LSP colors
-        lsp_deep_pink = "#ff005f",
-        lsp_dark_olive_green = "#87d75f",
-        lsp_light_golden_rod = "#ffd75f",
-        lsp_sandy_brown = "#ffaf5f",
-        lsp_sky_blue = "#87d7ff",
-        lsp_light_coral = "#ff8787",
+    -- LSP colors
+    lsp_deep_pink = "#ff005f",
+    lsp_dark_olive_green = "#87d75f",
+    lsp_light_golden_rod = "#ffd75f",
+    lsp_sandy_brown = "#ffaf5f",
+    lsp_sky_blue = "#87d7ff",
+    lsp_light_coral = "#ff8787",
+
+    -- Diff
+    gh_diff_add = '#032600',
+    gh_diff_change = '#030026',
+    gh_diff_delete = '#260007',
+
 }
 
 return colors
