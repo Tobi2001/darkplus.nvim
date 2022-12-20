@@ -57,11 +57,12 @@ local colors = {
     lsp_sky_blue = "#87d7ff",
     lsp_light_coral = "#ff8787",
 
-    -- Diff
-    gh_diff_add = '#032600',
-    gh_diff_change = '#030026',
-    gh_diff_delete = '#260007',
-
+    -- Apprentice diff colors
+    app_bg = '#262626',
+    app_diff_text = '#afafaf',
+    app_diff_add = '#5F875F',
+    app_diff_change = '#5F87AF',
+    app_diff_delete = '#AF5F5F',
 }
 
 return colors
